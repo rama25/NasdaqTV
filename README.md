@@ -22,7 +22,7 @@ pod 'NasdaqTV'
 
 ## Author
 
-faisalmlalani, ramapriya288@gmail.com
+Ramapriya, Sachin, Jan
 
 ## License
 

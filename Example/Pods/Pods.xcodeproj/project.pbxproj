@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06F5C0AB2297B8FA0090BDAE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5C0A92297B8F90090BDAE /* CollectionViewCell.swift */; };
-		06F5C0AC2297B8FA0090BDAE /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5C0AA2297B8FA0090BDAE /* CollectionViewController.swift */; };
-		2ABF8AB9DA16F292282C405CAF7FCADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3AF21DAF1F438D0BFA367AB45CB0D4E7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB641FD7BF7A91663ECCF3B2E85C4CE /* MapKit.framework */; };
 		49D8AF90CE247C5F710455E353AB27BB /* Pods-NasdaqTV_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2987DE66CAA01A0F383FD090CA5A6829 /* Pods-NasdaqTV_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58A190E739D1C6DF7DC8491883C16FDF /* NasdaqTV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CECF4B06769010348CF039AEA4FA4440 /* NasdaqTV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64529DEAF8E362EC7B3F140E641125B3 /* NasdaqTV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F604BB08D5A32371F7C24EE33E3E05B /* NasdaqTV-dummy.m */; };
+		555243D1640E7612F30E84AB54F41EF1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BAC0240313D0A9FABB844B51007FC /* CollectionViewCell.swift */; };
+		7A59A9A8956A0420651074653DA5A5CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F13C90B2AA22FCB8FA92927F9C364 /* Foundation.framework */; };
+		A7CA6C3685228BD401825E26469870A5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063ED14BF6080B0547E1678EC64BC563 /* CollectionViewController.swift */; };
+		B2E060471CFCB60064CFD5FB6B8BE46B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9D20234F272C59C6119F09CA0794BB /* UIKit.framework */; };
+		E11B0CFFE5747EBD8C4432EEB9BDB003 /* NasdaqTV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03029290D7475858CFD32F6BA7B413AC /* NasdaqTV-dummy.m */; };
+		EB140B8C17E50534C1A45B429987326D /* NasdaqTV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EF27B94CA0CBD6384802FAA64BE0EE /* NasdaqTV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE2B1D70B3841A374CEAF5951649DB33 /* Pods-NasdaqTV_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06E2E1EC69F2A947CCA87C732411F1D /* Pods-NasdaqTV_Tests-dummy.m */; };
-		F56A5C5CBEC128981CBF720D3068B87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F56A5C5CBEC128981CBF720D3068B87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F13C90B2AA22FCB8FA92927F9C364 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,44 +24,48 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F909D4F26D6FDE423BC53A213EDBEB36;
+			remoteGlobalIDString = 01D34AEC94F0F44FAD8F96D34FD27632;
 			remoteInfo = NasdaqTV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F5C0A92297B8F90090BDAE /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		06F5C0AA2297B8FA0090BDAE /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		03029290D7475858CFD32F6BA7B413AC /* NasdaqTV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NasdaqTV-dummy.m"; sourceTree = "<group>"; };
+		063ED14BF6080B0547E1678EC64BC563 /* CollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = Classes/CollectionViewController.swift; sourceTree = "<group>"; };
+		213ECBFCE54F3E29021B1A43770A196E /* NasdaqTV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NasdaqTV.modulemap; sourceTree = "<group>"; };
 		2987DE66CAA01A0F383FD090CA5A6829 /* Pods-NasdaqTV_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NasdaqTV_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		395AE2CB0EC0A50DFECFD6DCDF088E7A /* NasdaqTV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NasdaqTV-prefix.pch"; sourceTree = "<group>"; };
+		2AB8EC5E575D934769ADD3CDD4A8858A /* NasdaqTV.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NasdaqTV.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43EF27B94CA0CBD6384802FAA64BE0EE /* NasdaqTV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NasdaqTV-umbrella.h"; sourceTree = "<group>"; };
 		48789BC40B66481CE89CF795B9B73106 /* Pods-NasdaqTV_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NasdaqTV_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AAEC40AE7DF0B7FC5D107CB48D64888 /* NasdaqTV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NasdaqTV-Info.plist"; sourceTree = "<group>"; };
 		4B398388B317761DD22392F44358B7EB /* Pods-NasdaqTV_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NasdaqTV_Tests-Info.plist"; sourceTree = "<group>"; };
-		57348AB719EF4D5DECDFBCE702957CEF /* NasdaqTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NasdaqTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57348AB719EF4D5DECDFBCE702957CEF /* NasdaqTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NasdaqTV.framework; path = NasdaqTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58706FDEDC51D4E0AC467A77102476A1 /* Pods-NasdaqTV_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NasdaqTV_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		69D5443D24A6260E09043AA2BA7BAB63 /* NasdaqTV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NasdaqTV-Info.plist"; sourceTree = "<group>"; };
+		6474C6D896E06173D4EABA12AA5C9978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6D6E85C640F45AB4371030677717E803 /* Pods-NasdaqTV_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NasdaqTV_Tests.modulemap"; sourceTree = "<group>"; };
 		793843D1DB2C8431F4BA117B39CF643B /* Pods-NasdaqTV_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NasdaqTV_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A6E64C8D69AFEB544B1C99287417906 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9B8E658D896F6AE1DDB84295A702849B /* NasdaqTV.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NasdaqTV.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F604BB08D5A32371F7C24EE33E3E05B /* NasdaqTV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NasdaqTV-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A02780966C2E6FFB67407C8CB3D7DB32 /* Pods-NasdaqTV_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NasdaqTV_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B14EB8FE15FB71D3ABE9EE432C2AC8E3 /* Pods_NasdaqTV_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasdaqTV_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45F13C90B2AA22FCB8FA92927F9C364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AD87089D306FEB0D3E30826AACECB352 /* NasdaqTV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NasdaqTV-prefix.pch"; sourceTree = "<group>"; };
+		AF9D20234F272C59C6119F09CA0794BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B14EB8FE15FB71D3ABE9EE432C2AC8E3 /* Pods_NasdaqTV_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NasdaqTV_Tests.framework; path = "Pods-NasdaqTV_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37BAC0240313D0A9FABB844B51007FC /* CollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = Classes/CollectionViewCell.swift; sourceTree = "<group>"; };
+		BFB641FD7BF7A91663ECCF3B2E85C4CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		C06E2E1EC69F2A947CCA87C732411F1D /* Pods-NasdaqTV_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NasdaqTV_Tests-dummy.m"; sourceTree = "<group>"; };
-		C3DCB2E87617BE1436B49C7EA7B73123 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C8483D9BC2B19AFC74C804BCB6AA5B7F /* NasdaqTV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NasdaqTV.modulemap; sourceTree = "<group>"; };
-		CECF4B06769010348CF039AEA4FA4440 /* NasdaqTV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NasdaqTV-umbrella.h"; sourceTree = "<group>"; };
+		CF4A8DD01BA81C01FB14C65E349CC2AE /* NasdaqTV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NasdaqTV.xcconfig; sourceTree = "<group>"; };
+		DCAD73310A39EF38D26CF47D1FA00BFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EC0D63B091E269AA09B3C1196AC4CBB7 /* Pods-NasdaqTV_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NasdaqTV_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EEDD45F059FB493E3FA5AED98768E147 /* NasdaqTV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NasdaqTV.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22AAF7C18DF605AE4E02D4517475B974 /* Frameworks */ = {
+		060E4BDB9A01A1ECBD3FF966A1BC90E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ABF8AB9DA16F292282C405CAF7FCADA /* Foundation.framework in Frameworks */,
+				7A59A9A8956A0420651074653DA5A5CC /* Foundation.framework in Frameworks */,
+				3AF21DAF1F438D0BFA367AB45CB0D4E7 /* MapKit.framework in Frameworks */,
+				B2E060471CFCB60064CFD5FB6B8BE46B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,27 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06F5C0AD2297B9010090BDAE /* Classes */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				06F5C0A92297B8F90090BDAE /* CollectionViewCell.swift */,
-				06F5C0AA2297B8FA0090BDAE /* CollectionViewController.swift */,
+				1B6EBB1BC79EC2081F2701A9B1DEFDAB /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		391ECEC5C80C6AE4D3E2B195F6CF2FD3 /* Support Files */ = {
+		1B6EBB1BC79EC2081F2701A9B1DEFDAB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C8483D9BC2B19AFC74C804BCB6AA5B7F /* NasdaqTV.modulemap */,
-				EEDD45F059FB493E3FA5AED98768E147 /* NasdaqTV.xcconfig */,
-				9F604BB08D5A32371F7C24EE33E3E05B /* NasdaqTV-dummy.m */,
-				69D5443D24A6260E09043AA2BA7BAB63 /* NasdaqTV-Info.plist */,
-				395AE2CB0EC0A50DFECFD6DCDF088E7A /* NasdaqTV-prefix.pch */,
-				CECF4B06769010348CF039AEA4FA4440 /* NasdaqTV-umbrella.h */,
+				A45F13C90B2AA22FCB8FA92927F9C364 /* Foundation.framework */,
+				BFB641FD7BF7A91663ECCF3B2E85C4CE /* MapKit.framework */,
+				AF9D20234F272C59C6119F09CA0794BB /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NasdaqTV";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		51304FD02D013BF381502CBB82C5BCA2 /* Targets Support Files */ = {
@@ -103,6 +104,24 @@
 				712DAD7B9FB1E1E1EC83CA9BDBBEC1D6 /* Pods-NasdaqTV_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		554E4FACC92C20ED35954A60E49142CE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				823F91D2D0E525BBB05D91FFED14C50A /* NasdaqTV */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		58ED25F608057D4D423ECA03482E6CF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6474C6D896E06173D4EABA12AA5C9978 /* LICENSE */,
+				2AB8EC5E575D934769ADD3CDD4A8858A /* NasdaqTV.podspec */,
+				DCAD73310A39EF38D26CF47D1FA00BFA /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		712DAD7B9FB1E1E1EC83CA9BDBBEC1D6 /* Pods-NasdaqTV_Tests */ = {
@@ -122,6 +141,32 @@
 			path = "Target Support Files/Pods-NasdaqTV_Tests";
 			sourceTree = "<group>";
 		};
+		823F91D2D0E525BBB05D91FFED14C50A /* NasdaqTV */ = {
+			isa = PBXGroup;
+			children = (
+				B37BAC0240313D0A9FABB844B51007FC /* CollectionViewCell.swift */,
+				063ED14BF6080B0547E1678EC64BC563 /* CollectionViewController.swift */,
+				58ED25F608057D4D423ECA03482E6CF7 /* Pod */,
+				88793E1BAB8A4ED14D7B36D98C044A1E /* Support Files */,
+			);
+			name = NasdaqTV;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		88793E1BAB8A4ED14D7B36D98C044A1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				213ECBFCE54F3E29021B1A43770A196E /* NasdaqTV.modulemap */,
+				CF4A8DD01BA81C01FB14C65E349CC2AE /* NasdaqTV.xcconfig */,
+				03029290D7475858CFD32F6BA7B413AC /* NasdaqTV-dummy.m */,
+				4AAEC40AE7DF0B7FC5D107CB48D64888 /* NasdaqTV-Info.plist */,
+				AD87089D306FEB0D3E30826AACECB352 /* NasdaqTV-prefix.pch */,
+				43EF27B94CA0CBD6384802FAA64BE0EE /* NasdaqTV-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NasdaqTV";
+			sourceTree = "<group>";
+		};
 		9696B716B3285921CEA943EA225780E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,65 +176,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A99C1BBF06280F844298BF488CE4E93A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C3DCB2E87617BE1436B49C7EA7B73123 /* LICENSE */,
-				9B8E658D896F6AE1DDB84295A702849B /* NasdaqTV.podspec */,
-				8A6E64C8D69AFEB544B1C99287417906 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E9584660E87EA63A10B467D9B60B406D /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				554E4FACC92C20ED35954A60E49142CE /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				9696B716B3285921CEA943EA225780E2 /* Products */,
 				51304FD02D013BF381502CBB82C5BCA2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E9584660E87EA63A10B467D9B60B406D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F517EF72FBB6AFD077F474BDA84E1122 /* NasdaqTV */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F517EF72FBB6AFD077F474BDA84E1122 /* NasdaqTV */ = {
-			isa = PBXGroup;
-			children = (
-				06F5C0AD2297B9010090BDAE /* Classes */,
-				A99C1BBF06280F844298BF488CE4E93A /* Pod */,
-				391ECEC5C80C6AE4D3E2B195F6CF2FD3 /* Support Files */,
-			);
-			name = NasdaqTV;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		909EC918C2E665D4E134888BEEB2F082 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB140B8C17E50534C1A45B429987326D /* NasdaqTV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90A3EB5A2DFA49FFE6A0D3C6AD4ECFED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,17 +206,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A80E03F0C348EF5EF7915452C46C42AB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58A190E739D1C6DF7DC8491883C16FDF /* NasdaqTV-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		01D34AEC94F0F44FAD8F96D34FD27632 /* NasdaqTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D75422AD4046B55F455FF8B6985791 /* Build configuration list for PBXNativeTarget "NasdaqTV" */;
+			buildPhases = (
+				909EC918C2E665D4E134888BEEB2F082 /* Headers */,
+				82BE0B16FB943CE496A467BB3A18E1E4 /* Sources */,
+				060E4BDB9A01A1ECBD3FF966A1BC90E7 /* Frameworks */,
+				EF8B3D392D01C7B3E29DA144D1CEDF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasdaqTV;
+			productName = NasdaqTV;
+			productReference = 57348AB719EF4D5DECDFBCE702957CEF /* NasdaqTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		CE46DF05A6201B0362680452BE0AF82A /* Pods-NasdaqTV_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFE7AC4DF083C57C69FD3BC2C1B3AE98 /* Build configuration list for PBXNativeTarget "Pods-NasdaqTV_Tests" */;
@@ -226,24 +244,6 @@
 			name = "Pods-NasdaqTV_Tests";
 			productName = "Pods-NasdaqTV_Tests";
 			productReference = B14EB8FE15FB71D3ABE9EE432C2AC8E3 /* Pods_NasdaqTV_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F909D4F26D6FDE423BC53A213EDBEB36 /* NasdaqTV */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71479E022377ACF54AE5EB0210A8C18E /* Build configuration list for PBXNativeTarget "NasdaqTV" */;
-			buildPhases = (
-				A80E03F0C348EF5EF7915452C46C42AB /* Headers */,
-				65D86E235854B1916BC1010A226D3648 /* Sources */,
-				22AAF7C18DF605AE4E02D4517475B974 /* Frameworks */,
-				17DC5663EA9D6EE5F182488DBB8788C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NasdaqTV;
-			productName = NasdaqTV;
-			productReference = 57348AB719EF4D5DECDFBCE702957CEF /* NasdaqTV.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -267,21 +267,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F909D4F26D6FDE423BC53A213EDBEB36 /* NasdaqTV */,
+				01D34AEC94F0F44FAD8F96D34FD27632 /* NasdaqTV */,
 				CE46DF05A6201B0362680452BE0AF82A /* Pods-NasdaqTV_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		17DC5663EA9D6EE5F182488DBB8788C3 /* Resources */ = {
+		A9ED90071EFA3BDCAD19F36EBBA5BD69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9ED90071EFA3BDCAD19F36EBBA5BD69 /* Resources */ = {
+		EF8B3D392D01C7B3E29DA144D1CEDF2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,13 +291,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65D86E235854B1916BC1010A226D3648 /* Sources */ = {
+		82BE0B16FB943CE496A467BB3A18E1E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06F5C0AC2297B8FA0090BDAE /* CollectionViewController.swift in Sources */,
-				64529DEAF8E362EC7B3F140E641125B3 /* NasdaqTV-dummy.m in Sources */,
-				06F5C0AB2297B8FA0090BDAE /* CollectionViewCell.swift in Sources */,
+				555243D1640E7612F30E84AB54F41EF1 /* CollectionViewCell.swift in Sources */,
+				A7CA6C3685228BD401825E26469870A5 /* CollectionViewController.swift in Sources */,
+				E11B0CFFE5747EBD8C4432EEB9BDB003 /* NasdaqTV-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,15 +315,15 @@
 		F894ADD3CEB3687942A18DE11A219676 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NasdaqTV;
-			target = F909D4F26D6FDE423BC53A213EDBEB36 /* NasdaqTV */;
+			target = 01D34AEC94F0F44FAD8F96D34FD27632 /* NasdaqTV */;
 			targetProxy = 195B38FDF0A4090ECA88DB569529770E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12DBDB5F2ADCFD81C33ABA36567695E0 /* Release */ = {
+		6C913305D483B066F68DE5F3B0662B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEDD45F059FB493E3FA5AED98768E147 /* NasdaqTV.xcconfig */;
+			baseConfigurationReference = CF4A8DD01BA81C01FB14C65E349CC2AE /* NasdaqTV.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -337,7 +337,38 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NasdaqTV/NasdaqTV-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NasdaqTV/NasdaqTV-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NasdaqTV/NasdaqTV.modulemap";
+				PRODUCT_MODULE_NAME = NasdaqTV;
+				PRODUCT_NAME = NasdaqTV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		848984B7F8DB363D1C3DED35613B6C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4A8DD01BA81C01FB14C65E349CC2AE /* NasdaqTV.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NasdaqTV/NasdaqTV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NasdaqTV/NasdaqTV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NasdaqTV/NasdaqTV.modulemap";
 				PRODUCT_MODULE_NAME = NasdaqTV;
@@ -352,37 +383,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		700D35118984E45A63B7F897C408ED64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEDD45F059FB493E3FA5AED98768E147 /* NasdaqTV.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NasdaqTV/NasdaqTV-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NasdaqTV/NasdaqTV-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NasdaqTV/NasdaqTV.modulemap";
-				PRODUCT_MODULE_NAME = NasdaqTV;
-				PRODUCT_NAME = NasdaqTV;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A5D886210397567DA34854A390703CB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -470,7 +470,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -586,20 +587,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71479E022377ACF54AE5EB0210A8C18E /* Build configuration list for PBXNativeTarget "NasdaqTV" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				700D35118984E45A63B7F897C408ED64 /* Debug */,
-				12DBDB5F2ADCFD81C33ABA36567695E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CFE7AC4DF083C57C69FD3BC2C1B3AE98 /* Build configuration list for PBXNativeTarget "Pods-NasdaqTV_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5D886210397567DA34854A390703CB8 /* Debug */,
 				CA0AD159F2588DE6E6B0C9E4DA048E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D75422AD4046B55F455FF8B6985791 /* Build configuration list for PBXNativeTarget "NasdaqTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C913305D483B066F68DE5F3B0662B18 /* Debug */,
+				848984B7F8DB363D1C3DED35613B6C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

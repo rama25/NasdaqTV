@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F909D4F26D6FDE423BC53A213EDBEB36"
+               BlueprintIdentifier = "01D34AEC94F0F44FAD8F96D34FD27632"
                BuildableName = "NasdaqTV.framework"
                BlueprintName = "NasdaqTV"
                ReferencedContainer = "container:Pods.xcodeproj">

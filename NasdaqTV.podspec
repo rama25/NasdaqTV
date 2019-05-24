@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "NasdaqTV"
-s.version          = "1.2.0"
+s.version          = "1.2.1"
 s.summary          = "NasdaqTv."
 
 # This description is used to generate tags and improve search results./
@@ -21,11 +21,11 @@ s.description      = <<-DESC
 TVOS App to get data from various sources such as YouTube, Facebook etc of the organisation and classification of this data into various categories based on the video type
 DESC
 
-s.homepage         = "https://github.com/rama25/Nasdaq-TV-app"
+s.homepage         = "https://github.com/rama25/NasdaqTV"
 s.screenshots      = "https://blendnet.blob.core.windows.net/largefiles/Capture.PNG", "https://blendnet.blob.core.windows.net/largefiles/Capture1.PNG"
 s.license          = { :type => "MIT", :file => "LICENSE" }
 s.author           = { "ramapriya" => "ramapriya288@gmail.com" }
-s.source           = { :git => "https://github.com/rama25/Nasdaq-TV-app.git", :tag => s.version.to_s, :commit => "c3533a212c60e9063ea05b04dee0dae56ef03a8a" }
+s.source           = { :git => "https://github.com/rama25/NasdaqTV.git", :tag => s.version.to_s, :commit => "2dcd7adc59cdc9d234b694c34740141d3005f4ee" }
 
 s.ios.deployment_target = "9.3"
 

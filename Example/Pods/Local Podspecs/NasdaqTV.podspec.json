@@ -1,22 +1,32 @@
 {
   "name": "NasdaqTV",
-  "version": "0.1.0",
-  "summary": "A short description of NasdaqTV.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/faisalmlalani/NasdaqTV",
+  "version": "1.2.0",
+  "summary": "NasdaqTv.",
+  "description": "TVOS App to get data from various sources such as YouTube, Facebook etc of the organisation and classification of this data into various categories based on the video type",
+  "homepage": "https://github.com/rama25/Nasdaq-TV-app",
+  "screenshots": [
+    "https://blendnet.blob.core.windows.net/largefiles/Capture.PNG",
+    "https://blendnet.blob.core.windows.net/largefiles/Capture1.PNG"
+  ],
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "faisalmlalani": "ramapriya288@gmail.com"
+    "ramapriya": "ramapriya288@gmail.com"
   },
   "source": {
-    "git": "https://github.com/faisalmlalani/NasdaqTV.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/rama25/Nasdaq-TV-app.git",
+    "tag": "1.2.0",
+    "commit": "2dcd7adc59cdc9d234b694c34740141d3005f4ee"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "NasdaqTV/Classes/**/*"
+  "swift_version": "4.0",
+  "source_files": "Classes/*.{h,m,swift}",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }

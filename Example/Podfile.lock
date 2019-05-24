@@ -1,5 +1,5 @@
 PODS:
-  - NasdaqTV (0.1.0)
+  - NasdaqTV (1.2.0)
 
 DEPENDENCIES:
   - NasdaqTV (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NasdaqTV: 530cd1fea3fd4dc7a4dcabd5c8738dcd800bc598
+  NasdaqTV: cfb282502ff0bd2e24c05a900cf467d26f620976
 
 PODFILE CHECKSUM: cd1a9f37a53c8fb57dd39a31d50aac28c5678e6c
 

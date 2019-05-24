@@ -1,0 +1,16 @@
+PODS:
+  - NasdaqTV (0.1.0)
+
+DEPENDENCIES:
+  - NasdaqTV (from `../`)
+
+EXTERNAL SOURCES:
+  NasdaqTV:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NasdaqTV: 530cd1fea3fd4dc7a4dcabd5c8738dcd800bc598
+
+PODFILE CHECKSUM: cd1a9f37a53c8fb57dd39a31d50aac28c5678e6c
+
+COCOAPODS: 1.6.2

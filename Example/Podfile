@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NasdaqTV_Tests' do
+  pod 'NasdaqTV', :path => '../'
+  
+  
+end

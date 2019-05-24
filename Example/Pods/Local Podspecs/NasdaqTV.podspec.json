@@ -1,0 +1,22 @@
+{
+  "name": "NasdaqTV",
+  "version": "0.1.0",
+  "summary": "A short description of NasdaqTV.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/faisalmlalani/NasdaqTV",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "faisalmlalani": "ramapriya288@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/faisalmlalani/NasdaqTV.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NasdaqTV/Classes/**/*"
+}

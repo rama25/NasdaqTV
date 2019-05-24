@@ -1,0 +1,6 @@
+framework module NasdaqTV {
+  umbrella header "NasdaqTV-umbrella.h"
+
+  export *
+  module * { export * }
+}
